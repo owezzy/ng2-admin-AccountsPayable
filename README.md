@@ -26,6 +26,3 @@ Angular 2+, Angular CLI, Bootstrap 4, and lots of awesome modules and plugins
 ## License
 [MIT](LICENSE.txt) license.
 
-## Special thanks to our awesome contributors!
-Akeo Team
-
