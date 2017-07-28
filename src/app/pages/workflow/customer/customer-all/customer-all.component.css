@@ -1,0 +1,9 @@
+.content-wrapper {
+    min-height: 1200px;
+    /*font-size: 15px;*/
+}
+
+.box-header {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

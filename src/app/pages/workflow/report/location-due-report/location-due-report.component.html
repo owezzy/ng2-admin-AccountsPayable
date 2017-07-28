@@ -1,0 +1,57 @@
+<div class="content-wrapper" style="height: 2000px;">
+  <section class="content-header">
+    <div class="col-xs-12">
+      <h1>
+        Report
+        <small>Area based report</small>
+      </h1>
+
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> InvoiceApp</a></li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> Report</a></li>
+        <li class="active">Area based report</li>
+      </ol>
+    </div>
+  </section>
+  <section class="content">
+    <div class="col-md-12">
+      <div class="input-group">
+        <select style="font-size: 15px;height: 34px,width: 500px;" (change)="filterChange($event.target.value)">
+          <option value="default">Select Area</option>
+          <option *ngFor="let area of areaList" value="{{ area._id }}">{{ area.name }}</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="box box-primary">
+        <div class="box-header">
+
+        </div>
+        <div class="box-body table-responsive no-padding" *ngIf="reportList.length>0">
+          <table class="table table-hover">
+            <tbody>
+            <tr>
+              <th>Username</th>
+              <th>Mobile No.</th>
+              <th>Location</th>
+              <th>Current Due (BDT)</th>
+              <th>Previous Due (BDT)</th>
+              <th>Total Due (BDT)</th>
+            </tr>
+            <tr *ngFor="let report of reportList | paginate: { itemsPerPage: 10, currentPage: p }">
+              <td>{{ report.username }}</td>
+              <td>{{ report.mobile_no }}</td>
+              <td>{{ report.location }}</td>
+              <td>{{ report.current_due }}</td>
+              <td>{{ report.previous_due }}</td>
+              <td>{{ report.total_due }}</td>
+            </tr>
+            </tbody>
+
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</div>
