@@ -15,7 +15,7 @@ Admin template made with :heart:  by owezzy .
 
 
 ## Based on
-Angular 2+, Angular CLI, Bootstrap 4, and lots of awesome modules and plugins
+Angular 4, Angular CLI, Bootstrap 4, and lots of awesome modules and plugins
 
 
 ## Features
@@ -28,7 +28,7 @@ Angular 2+, Angular CLI, Bootstrap 4, and lots of awesome modules and plugins
 * Angular
 * jQuery
 * Charts (Chartist, Chart.js)
-* Maps (Google, Leaflet, amMap)
+* E-mail Authentification
 
 ## License
 [MIT](LICENSE.txt) license.
