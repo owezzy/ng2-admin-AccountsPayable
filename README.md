@@ -11,7 +11,7 @@ Admin template made with :heart:  by owezzy .
 2. Run `npm i` from the root folder of the projcet. This may take a while. It may even *freeze* a bit on final steps - be patient. 
   * Also Remember, that npm on installing project dependencies may try to rebuild some modules (i.e *gyp*) and show scary red errors on that rebuild fails. Don't panic. If your `npm install` ends with long tree of project dependencies - then you are going right way. Nevermind deprecation WARNs. 
 
-3. Point your browser to [http://localhost:4200](http://localhost:4200)
+3. Run `npm start` from root of the project and point your browser to [http://localhost:4200](http://localhost:4200)
 
 
 ## Based on
