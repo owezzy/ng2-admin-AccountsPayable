@@ -35,7 +35,7 @@
     "clean:dist": "npm run rimraf -- dist",
     "clean:coverage": "npm run rimraf -- coverage",
     "gh-pages": "wintersmith build -C docs && gh-pages -d docs/build",
-    "docs:serve": "wintersmith preview -C docs"
+  
   },
   "private": true,
   "dependencies": {
