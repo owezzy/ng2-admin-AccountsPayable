@@ -21,6 +21,7 @@
     "start:aot": "ng serve --aot",
     "start:prod": "ng serve --prod",
     "start:prod:aot": "ng serve --prod --aot",
+    "postinstall": "ng build --aot -prod",
     "build": "npm run clean:dist && ng build",
     "build:prod": "npm run build -- --prod",
     "build:prod:aot": "npm run build -- --aot",
